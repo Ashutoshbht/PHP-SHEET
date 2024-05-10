@@ -1,0 +1,44 @@
+.container {
+    max-width: 98%; 
+    margin: 0 auto; 
+    padding: 0px;
+    background-color: rgb(249, 245, 245);
+}
+
+input[type="text"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 4px;
+    margin-bottom: 10px;
+
+    box-sizing: border-box; 
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+
+    input[type="text"],
+    input[type="date"],
+    select {
+        width: 100%;
+    }
+    .container {
+        padding: 10px; 
+    }
+}
+.container from {
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 20px;
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+}
+.required{
+    color: red;
+}
