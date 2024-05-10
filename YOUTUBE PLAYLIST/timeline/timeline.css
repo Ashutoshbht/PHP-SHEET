@@ -1,0 +1,172 @@
+body {
+    background-color: #d0d8e4;
+    font-family: tahoma;
+}
+
+.top_nav {
+    height: 55px;
+    color: #3c5a99;
+    background-color: #3c5a99;
+}
+
+.top_nav1 {
+    color: white;
+    width: auto;
+    margin: auto;
+    font-size: 35px;
+}
+
+#search {
+    position: relative;
+    left: 18rem;
+    bottom: 5px;
+    height: 24px;
+    width: 20rem;
+    font-size: 13px;
+    padding: 4px;
+    background-image: url(search.png.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    border: none;
+}
+
+.top_nav1 img {
+    width: 55px;
+    float: right;
+    border-radius: 50%;
+}
+
+.cover {
+    margin: auto;
+    width: 94%;
+    min-height: 400px;
+}
+
+.bgimage {
+    background-color: white;
+    text-align: center;
+    color: #405d9b;
+}
+
+#bgimg {
+    width: 100%;
+}
+
+#profile_img {
+    width: 230px;
+    margin-top: -200px;
+    border-radius: 50%;
+    border: solid 2px white;
+    position: relative;
+    left: 2px;
+    top: -2px;
+}
+
+.navbar_items {
+    width: 100px;
+    display: inline-block;
+    margin: 2px;
+}
+
+.uname {
+    font-size: 20px;
+}
+
+.box {
+    display: flex;
+}
+
+.leftbox {
+    flex: 1;
+    min-height: 400px;
+}
+
+.rightbox {
+    /* flex: 2.5;
+    min-height: 400px;
+    background-color: white;*/
+    flex: 2.5;
+    min-height: 500px;
+    background-color: white;
+    width: 100%;
+    position: relative;
+    top: 0px;
+} 
+
+.friend {
+    /* background-color:#d0d8e4;
+    min-height: 400px;
+    margin-top: 20px;
+    padding: 10px; */
+    min-height: 400px;
+    margin-top: -19px;
+    padding: 10px;
+}
+.friend_list_img{
+    width: 80%;
+    margin: 0;
+    border-radius: 100%;
+}
+.friend_list{
+    clear: both;
+    font-size: 30px;
+    color: #3c5a99;
+    font-weight: bold;
+    text-align: center;
+}
+
+.post_box{
+    background-color: #d0d8e4;
+    width: auto;
+    min-height: 200px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+  
+}
+textarea{
+    width: 100%;
+    border: none;
+}
+#sumbit_button{
+    float: right;
+    margin: 12px;
+    padding: 4px;
+    background-color:#3c5a99;
+    color: white;
+    border: none;
+}
+
+.post_data{
+    min-height: 200px;
+    background-color: white;
+    width: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.inner_sections{
+    border-bottom: 1px solid rgb(131, 130, 130);
+    width: auto;
+    height: 136px;
+    background-color: white;
+    display: flex;
+}
+.post_data_img_src{
+    width: 121px;
+    padding: 0px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.post_data_info{
+    padding: 9px;
+    margin-left: 15px;
+    font-size: 14px;
+}
+.post_data_img{
+    width: 150px ;
+}
+.post_user{
+    color: #3c5a99;
+    font-size: 14px;
+    font-weight: bold;  
+}
